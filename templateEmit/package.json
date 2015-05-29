@@ -1,0 +1,29 @@
+{
+  "name": "templateEmit",
+  "version": "0.0.1",
+  "description": "Template Emitter prototype",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanKingston/templateEmit.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathanKingston/templateEmit/issues"
+  },
+  "homepage": "https://github.com/jonathanKingston/templateEmit",
+  "author": "Jonathan Kingston",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "eslint": "^0.21.2",
+    "eslint-config-nightmare-mode": "0.0.3"
+  },
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "prepublish": "babel src --out-dir dist"
+  }
+}
